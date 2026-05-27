@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-14 relative overflow-hidden bg-[#050505] select-none">
-      <div className="w-full px-6 md:px-16 relative z-10">
+      <div className="w-full px-2 sm:px-6 md:px-16 relative z-10">
         
         {/* Module Header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-10 border-b border-zinc-800 pb-2">

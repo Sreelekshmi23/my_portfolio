@@ -120,7 +120,7 @@ const Terminal = () => {
 
   return (
     <section id="terminal" className="py-8 relative overflow-hidden bg-[#050505] asym-border-bottom select-none">
-      <div className="w-full px-6 md:px-16 relative z-10">
+      <div className="w-full px-2 sm:px-6 md:px-16 relative z-10">
         
         {/* Module Header */}
         <div className="flex items-center justify-between mb-2 border-b border-zinc-800 pb-2">

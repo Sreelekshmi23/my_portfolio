@@ -61,7 +61,7 @@ const ArtPortfolio = () => {
             
             {/* Left Side: Big Circular Profile Image */}
             <div className="flex-shrink-0 relative p-3 bg-mural-black/60 border border-mural-gold/40 rounded-full shadow-[0_15px_50px_rgba(0,0,0,0.6)] backdrop-blur-md transition-transform duration-700 hover:scale-105 group">
-              <div className="w-80 h-80 md:w-[26rem] md:h-[26rem] lg:w-[30rem] lg:h-[30rem] rounded-full overflow-hidden border-[4px] border-mural-gold/80 relative">
+              <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-[26rem] md:h-[26rem] lg:w-[30rem] lg:h-[30rem] rounded-full overflow-hidden border-[4px] border-mural-gold/80 relative">
                 <img src="/kerala2.png" alt="Mohiniyattam Mural Profile" className="w-full h-full object-cover group-hover:scale-105 grayscale-[15%] group-hover:grayscale-0 transition-all duration-700" />
                 <div className="absolute inset-0 bg-gradient-to-t from-mural-black/80 via-transparent to-transparent opacity-40"></div>
               </div>
@@ -75,7 +75,7 @@ const ArtPortfolio = () => {
                 <span className="text-[10px] md:text-xs uppercase tracking-[0.2em] text-mural-gold font-bold">Mohiniyattam & Mural Artist</span>
               </div>
               
-              <h1 className="font-serif text-5xl md:text-6xl xl:text-7xl text-mural-ivory leading-tight pb-2 drop-shadow-2xl">
+              <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl xl:text-7xl text-mural-ivory leading-tight pb-2 drop-shadow-2xl">
                 Where Tradition <br className="hidden xl:block"/> Breathes Through <span className="text-mural-gold">Color</span>
               </h1>
               

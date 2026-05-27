@@ -52,7 +52,7 @@ const Hero = () => {
                 SYSTEM_BROADCAST // WELCOME
               </span>
             </div>
-            <h2 className="font-sans font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tighter leading-tight">
+            <h2 className="font-sans font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter leading-tight">
               Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#8FA3B8] to-zinc-500 drop-shadow-md">Sree Lekshmi</span>
             </h2>
           </div>
