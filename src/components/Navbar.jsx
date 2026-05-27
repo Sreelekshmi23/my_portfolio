@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Terminal } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('hero');
@@ -81,14 +82,20 @@ const Navbar = () => {
           S.L.
         </a>
         
-        {/* Floating trigger on the right */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="pointer-events-auto w-12 h-12 rounded-full border border-zinc-800 bg-[#0D0D0D]/60 backdrop-blur-md hover:bg-[#8FA3B8] hover:text-[#050505] text-white flex items-center justify-center transition-all duration-300 shadow-sm cursor-pointer"
-          aria-label="Toggle Menu"
-        >
-          {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
+        {/* Floating right actions */}
+        <div className="pointer-events-auto flex items-center gap-3 md:gap-6">
+          <Link to="/art" className="flex items-center text-[9px] md:text-[11px] font-mono font-bold text-[#8FA3B8] hover:text-white uppercase tracking-widest transition-colors border border-zinc-800 hover:border-zinc-600 bg-[#0D0D0D]/80 backdrop-blur-sm px-3 py-1.5 md:px-4 md:py-2 rounded-sm shadow-sm">
+            🎨 Art Portfolio
+          </Link>
+          
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-zinc-800 bg-[#0D0D0D]/60 backdrop-blur-md hover:bg-[#8FA3B8] hover:text-[#050505] text-white flex items-center justify-center transition-all duration-300 shadow-sm cursor-pointer"
+            aria-label="Toggle Menu"
+          >
+            {menuOpen ? <X className="w-4 h-4 md:w-5 md:h-5" /> : <Menu className="w-4 h-4 md:w-5 md:h-5" />}
+          </button>
+        </div>
       </header>
 
       {/* 3. Left-edge Rotated status text */}
@@ -180,7 +187,7 @@ const Navbar = () => {
                 S Sree Lekshmi
               </h5>
               <p className="text-sm text-zinc-400 leading-relaxed font-normal">
-                B.Tech Computer Science & Engineering (Class of 2026). Specialized neural networks developer and systems architect.
+                B.Tech Computer Science & Engineering graduate. Specialized neural networks developer and systems architect.
               </p>
             </div>
             
@@ -190,6 +197,7 @@ const Navbar = () => {
                 <a href="https://github.com/sree-lekshmi" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors">GH</a>
                 <a href="https://www.linkedin.com/in/sree-lekshmi-65b757255/" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors">LN</a>
                 <a href="mailto:sreelxmi73@gmail.com" className="text-zinc-400 hover:text-white transition-colors">EM</a>
+                <Link to="/art" className="text-zinc-400 hover:text-[#8FA3B8] transition-colors ml-2 border-l border-zinc-800 pl-4 font-bold">ART_PORTFOLIO</Link>
               </div>
             </div>
           </div>

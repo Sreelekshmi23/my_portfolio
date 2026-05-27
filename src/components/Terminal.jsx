@@ -26,7 +26,7 @@ const Terminal = () => {
       'Identity: S Sree Lekshmi',
       'Institution: College of Engineering Chengannur (CEC)',
       'University: APJ Abdul Kalam Technological University',
-      'Graduation: B.Tech Computer Science (2026) | CGPA: 9.06 / 10',
+      'Education: B.Tech Computer Science (Graduate) | CGPA: 9.06 / 10',
       'Work: Freelance Software Developer delivering client solutions (full-stack + system design).',
       'Focus: Strengthening Machine Learning / AI models while deploying robust, elegant web platforms.'
     ],
@@ -57,7 +57,7 @@ const Terminal = () => {
       'commit f97e21a - [2024-12] WIN: Conferred 3rd Prize in IEEE State-Level Hackathon',
       'commit c38d12e - [2024-07] CERT: Google Solution Challenge Certificate of Achievement & GenAI badges',
       'commit d2140eb - [2023-03] CERT: Acquired IBM GenAI and NPTEL Database Management credentials',
-      'commit e51b901 - [2022-09] ACAD: Commenced B.Tech CSE at College of Engineering Chengannur'
+      'commit e51b901 - [2022-09] ACAD: Graduated B.Tech CSE at College of Engineering Chengannur'
     ],
     'sudo hire': [
       'ACCESS GRANTED: INITIALIZING CONNECTION PORT...',
@@ -113,8 +113,8 @@ const Terminal = () => {
   };
 
   useEffect(() => {
-    if (terminalEndRef.current) {
-      terminalEndRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (terminalEndRef.current && terminalEndRef.current.parentNode) {
+      terminalEndRef.current.parentNode.scrollTop = terminalEndRef.current.parentNode.scrollHeight;
     }
   }, [history]);
 

@@ -46,6 +46,18 @@ export default {
           600: '#5A5960', /* Muted slate */
           400: '#8C8A94', /* Very muted slate */
           200: '#E1E0E3',
+        },
+        mural: {
+          charcoal: '#2C2C2C', /* Lamp Black */
+          black: '#1A1A1A',
+          vermilion: '#A63D2B', /* Red Ochre */
+          red: '#A63D2B', 
+          gold: '#E3A857', /* Yellow Ochre */
+          darkGold: '#D4AF37',
+          peacock: '#4A6D47', /* Leaf Green instead of blue, as true Panchavarna has no blue */
+          leaf: '#4A6D47',
+          ivory: '#F5F5F5', /* Lime White */
+          antique: '#C88D4B'
         }
       },
       boxShadow: {
@@ -56,6 +68,8 @@ export default {
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+        serif: ['"Playfair Display"', 'serif'],
+        cinzel: ['Cinzel', 'serif'],
       },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(var(--tw-gradient-stops))',

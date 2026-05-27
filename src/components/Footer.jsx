@@ -13,7 +13,7 @@ const Footer = () => {
             S Sree Lekshmi
           </p>
           <p className="text-xs font-mono font-bold text-zinc-550 uppercase tracking-widest leading-none">
-            B.TECH CSE (CLASS OF 2026) // AI CORE INFRASTRUCTURES
+            B.TECH CSE GRADUATE // AI CORE INFRASTRUCTURES
           </p>
         </div>
 

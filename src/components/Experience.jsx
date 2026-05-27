@@ -74,11 +74,11 @@ const Experience = () => {
       commit: 'e51b901',
       date: 'Sep 2022',
       type: 'ACAD',
-      role: 'B.Tech Computer Science & Student Governance',
+      role: 'B.Tech Computer Science Graduate & Student Governance',
       company: 'College of Engineering Chengannur',
-      subject: 'B.Tech CSE Commencement & College Union Governance',
+      subject: 'B.Tech CSE Graduation & College Union Governance',
       details: [
-        'APJ Abdul Kalam Technological University - College of Engineering Chengannur B.Tech CSE (Class of 2026).',
+        'APJ Abdul Kalam Technological University - College of Engineering Chengannur B.Tech CSE Graduate.',
         'Maintained a numerical CGPA of 9.06 / 10.0, placing in academic distinction thresholds.',
         'Elected and served as a Member of the College Union for 3 consecutive years, representing student initiatives.'
       ]

@@ -7,15 +7,15 @@ const Skills = () => {
   const capabilityModules = [
     {
       index: '01',
-      short: 'LANGUAGES & DATABASE',
-      category: 'PROGRAMMING LANGUAGES & DATABASES CORE',
-      modules: ['Python', 'C++', 'JavaScript', 'SQL', 'MySQL', 'PostgreSQL', 'HTML5', 'CSS3']
+      short: 'LANGUAGES & FRAMEWORKS',
+      category: 'CORE LANGUAGES, FRAMEWORKS & DATABASES',
+      modules: ['React', 'Next.js', 'Tailwind CSS', 'Python', 'C++', 'JavaScript', 'SQL', 'MySQL', 'PostgreSQL', 'HTML5', 'CSS3']
     },
     {
       index: '02',
-      short: 'FULL-STACK',
-      category: 'FULL-STACK DEVELOPMENT SYSTEMS',
-      modules: ['React.js', 'Next.js', 'Tailwind CSS', 'Flask', 'Node.js (basic)', 'REST APIs', 'Firebase']
+      short: 'BACKEND & FULL-STACK',
+      category: 'BACKEND & FULL-STACK SYSTEMS',
+      modules: ['Flask', 'Node.js (basic)', 'REST APIs', 'Firebase', 'React', 'Next.js']
     },
     {
       index: '03',

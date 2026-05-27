@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Terminal as TerminalIcon } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import developerImg from '../assets/developer.jpg';
 
 const Hero = () => {
@@ -51,8 +52,8 @@ const Hero = () => {
                 SYSTEM_BROADCAST // WELCOME
               </span>
             </div>
-            <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight leading-tight uppercase">
-              Hai, I am <span className="text-[#8FA3B8]">S Sree Lekshmi</span>
+            <h2 className="font-sans font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tighter leading-tight">
+              Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#8FA3B8] to-zinc-500 drop-shadow-md">Sree Lekshmi</span>
             </h2>
           </div>
 
@@ -71,16 +72,21 @@ const Hero = () => {
               <span className="terminal-cursor" />
             </pre>
 
+            {/* Direct Art Portfolio Link for immediate visibility */}
+            <Link to="/art" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#8FA3B8]/10 border border-[#8FA3B8]/30 hover:border-[#8FA3B8] hover:bg-[#8FA3B8] hover:text-[#050505] text-[#8FA3B8] font-mono text-xs font-bold uppercase tracking-widest px-6 py-4 rounded-sm transition-all duration-300 shadow-[0_0_15px_rgba(143,163,184,0.05)] mb-2 mt-4">
+              [ 🎨 EXPLORE MY ART PORTFOLIO ]
+            </Link>
+
             {/* Human-readable premium biography */}
-            <div className="font-sans text-base sm:text-lg text-zinc-300 leading-relaxed font-normal pt-1.5 space-y-4">
+            <div className="font-sans text-base sm:text-lg text-zinc-300 leading-relaxed font-normal pt-2 space-y-4">
               <p>
-                I am a Computer Science undergraduate at College of Engineering Chengannur with strong hands-on experience in full-stack development and a growing specialization in Artificial Intelligence and Machine Learning.
+                I am a Computer Science graduate (B.Tech) from College of Engineering Chengannur, with strong hands-on experience in full-stack development and a growing specialization in Artificial Intelligence and Machine Learning.
               </p>
               <p>
                 Alongside my academic journey, I actively work as a freelance developer in collaboration with a peer, where we build real-world software solutions for clients. Our work includes delivering production-level systems currently under client review and validation, which has given me exposure to real project workflows, system design, and deployment-ready development practices.
               </p>
               <p>
-                I have built multiple end-to-end applications across domains such as healthcare, education, sustainability, automation, and secure communication systems. My technical expertise spans React, Next.js, Flutter, Flask, Python, Firebase, and SQL databases, along with a strong foundation in scalable backend and frontend integration.
+                I have built multiple end-to-end applications across domains such as healthcare, education, sustainability, automation, and secure communication systems. My technical expertise spans React, Next.js, Tailwind CSS, Flutter, Flask, Python, Firebase, and SQL databases, along with a strong foundation in scalable backend and frontend integration.
               </p>
               <p>
                 Currently, my focus is on strengthening my Machine Learning and AI skills by building and deploying real trained models as part of my learning journey.
@@ -99,7 +105,7 @@ const Hero = () => {
               <span>SYS_VISUAL // S_SREE_LEKSHMI.JPG</span>
               <span className="text-[#8FA3B8] font-bold">OK // 100%_RESOLVED</span>
             </div>
-            <div className="relative aspect-square overflow-hidden border border-zinc-800/80 grayscale contrast-110 brightness-95 hover:grayscale-0 transition-all duration-500">
+            <div className="relative aspect-square overflow-hidden border border-zinc-800/80 grayscale-[30%] contrast-110 brightness-95 hover:grayscale-0 transition-all duration-500">
               <img 
                 src={developerImg} 
                 alt="S Sree Lekshmi" 
@@ -130,7 +136,7 @@ const Hero = () => {
 
             <div className="flex items-center justify-between border-b border-zinc-800 pb-2.5">
               <span className="font-bold uppercase tracking-wider text-xs">ROLE</span>
-              <span className="text-white font-semibold text-right text-sm">B.Tech Computer Science (2026)</span>
+              <span className="text-white font-semibold text-right text-sm">B.Tech Computer Science Graduate</span>
             </div>
 
             <div className="flex items-center justify-between border-b border-zinc-800 pb-2.5">
